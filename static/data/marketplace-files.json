@@ -8,24 +8,130 @@
           "name": "SKILL.md",
           "type": "file",
           "path": "SKILL.md",
-          "size": 2037
+          "size": 20138
         },
         {
           "name": "assets",
           "type": "directory",
           "path": "assets",
-          "children": [],
-          "fileCount": 0
+          "children": [
+            {
+              "name": "Containerfile.notebook",
+              "type": "file",
+              "path": "assets/Containerfile.notebook",
+              "size": 972
+            },
+            {
+              "name": "Containerfile.python-script",
+              "type": "file",
+              "path": "assets/Containerfile.python-script",
+              "size": 581
+            },
+            {
+              "name": "algorithm_config.yml",
+              "type": "file",
+              "path": "assets/algorithm_config.yml",
+              "size": 2052
+            },
+            {
+              "name": "github-workflow.yml",
+              "type": "file",
+              "path": "assets/github-workflow.yml",
+              "size": 1341
+            },
+            {
+              "name": "input.yml",
+              "type": "file",
+              "path": "assets/input.yml",
+              "size": 397
+            },
+            {
+              "name": "run.py",
+              "type": "file",
+              "path": "assets/run.py",
+              "size": 1289
+            }
+          ],
+          "fileCount": 6
+        },
+        {
+          "name": "references",
+          "type": "directory",
+          "path": "references",
+          "children": [
+            {
+              "name": "algorithm-config.md",
+              "type": "file",
+              "path": "references/algorithm-config.md",
+              "size": 5709
+            },
+            {
+              "name": "containers.md",
+              "type": "file",
+              "path": "references/containers.md",
+              "size": 7351
+            },
+            {
+              "name": "deploy.md",
+              "type": "file",
+              "path": "references/deploy.md",
+              "size": 9720
+            },
+            {
+              "name": "glossary.md",
+              "type": "file",
+              "path": "references/glossary.md",
+              "size": 7231
+            },
+            {
+              "name": "interview.md",
+              "type": "file",
+              "path": "references/interview.md",
+              "size": 21226
+            },
+            {
+              "name": "validate-and-run.md",
+              "type": "file",
+              "path": "references/validate-and-run.md",
+              "size": 5415
+            }
+          ],
+          "fileCount": 6
         },
         {
           "name": "scripts",
           "type": "directory",
           "path": "scripts",
-          "children": [],
-          "fileCount": 0
+          "children": [
+            {
+              "name": "fetch_generator.sh",
+              "type": "file",
+              "path": "scripts/fetch_generator.sh",
+              "size": 1693
+            },
+            {
+              "name": "generate_cwl.py",
+              "type": "file",
+              "path": "scripts/generate_cwl.py",
+              "size": 7065
+            },
+            {
+              "name": "register_app_pack.sh",
+              "type": "file",
+              "path": "scripts/register_app_pack.sh",
+              "size": 4931
+            },
+            {
+              "name": "validate_cwl.sh",
+              "type": "file",
+              "path": "scripts/validate_cwl.sh",
+              "size": 1541
+            }
+          ],
+          "fileCount": 4
         }
       ],
-      "fileCount": 1
+      "fileCount": 17
     }
   },
   "mcp-servers": {

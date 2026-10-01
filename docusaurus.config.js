@@ -61,7 +61,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/nasamaap-logo.png",
       navbar: {
         title: "MAAP AI Plugins",
         logo: {

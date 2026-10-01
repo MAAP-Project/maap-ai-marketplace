@@ -245,9 +245,10 @@ function generateMarketplace() {
   // 4. Validate.
   const isValid = validateRegistry(registry);
 
-  // 5. Build the marketplace manifest.
+  // 5. Build the marketplace manifest (skills and agents only — MCP servers
+  //    are installed via `claude mcp add`, not the plugin marketplace).
   const plugins = [];
-  for (const key of ["skills", "agents", "mcp"]) {
+  for (const key of ["skills", "agents"]) {
     if (!Array.isArray(registry[key])) continue;
     for (const entry of registry[key]) {
       plugins.push(toPlugin(entry, marketplaceSource));

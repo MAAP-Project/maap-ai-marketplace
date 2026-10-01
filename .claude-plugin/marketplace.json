@@ -28,30 +28,6 @@
         "name": "Marjorie Lucas"
       },
       "license": "Apache-2.0"
-    },
-    {
-      "name": "maap-platform",
-      "description": "Query MAAP jobs, batches, costs, and workspace files from your AI agent. A Streamable-HTTP MCP server hosted by the MAAP Console, exposing 7 tools and secured with Keycloak OAuth.",
-      "source": {
-        "source": "github",
-        "repo": "https://github.com/MAAP-Project/maap-console-ui"
-      },
-      "external_only": true,
-      "keywords": [
-        "mcp-server",
-        "jobs",
-        "batches",
-        "workspace",
-        "HySDS",
-        "external",
-        "OAuth"
-      ],
-      "author": {
-        "name": "NASA MAAP Project"
-      },
-      "homepage": "https://github.com/MAAP-Project/maap-console-ui/tree/main/server/src/mcp",
-      "repository": "https://github.com/MAAP-Project/maap-console-ui",
-      "license": "Apache-2.0"
     }
   ]
 }

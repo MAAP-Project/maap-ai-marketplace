@@ -1,0 +1,46 @@
+{
+  "skills": {
+    "algorithm-to-ogc": {
+      "name": "algorithm-to-ogc",
+      "type": "directory",
+      "children": [
+        {
+          "name": "SKILL.md",
+          "type": "file",
+          "path": "SKILL.md",
+          "size": 2037
+        },
+        {
+          "name": "assets",
+          "type": "directory",
+          "path": "assets",
+          "children": [],
+          "fileCount": 0
+        },
+        {
+          "name": "scripts",
+          "type": "directory",
+          "path": "scripts",
+          "children": [],
+          "fileCount": 0
+        }
+      ],
+      "fileCount": 1
+    }
+  },
+  "mcp-servers": {
+    "maap-platform": {
+      "name": "maap-platform",
+      "type": "directory",
+      "children": [
+        {
+          "name": "MCP.md",
+          "type": "file",
+          "path": "MCP.md",
+          "size": 2737
+        }
+      ],
+      "fileCount": 1
+    }
+  }
+}

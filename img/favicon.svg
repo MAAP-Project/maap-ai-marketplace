@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="favicon">
+  <rect x="10" y="10" width="180" height="180" rx="40" fill="#0d9488"/>
+  <rect x="50" y="50" width="44" height="44" rx="11" fill="#ffffff"/>
+  <rect x="106" y="50" width="44" height="44" rx="11" fill="#99f6e4"/>
+  <rect x="50" y="106" width="44" height="44" rx="11" fill="#99f6e4"/>
+  <rect x="106" y="106" width="44" height="44" rx="11" fill="#ffffff"/>
+</svg>

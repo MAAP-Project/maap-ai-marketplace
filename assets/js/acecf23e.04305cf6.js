@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocusaurus=globalThis.webpackChunkdocusaurus||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/maap-ai-marketplace/blog","blogTitle":"Blog","authorsListPath":"/maap-ai-marketplace/blog/authors"}')}}]);

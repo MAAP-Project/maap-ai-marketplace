@@ -1,0 +1,40 @@
+name: New AI Plugin
+description: Suggest a new AI plugin (skill or MCP server) for the marketplace
+title: "[New AI Plugin]: "
+labels: "enhancement"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > _Thanks for suggesting a new AI plugin. We appreciate your time and effort. Please answer a few questions._
+  - type: dropdown
+    id: checked-for-duplicates
+    attributes:
+      label: Checked for duplicates
+      description: Have you checked for duplicate issue tickets?
+      multiple: false
+      options:
+        - "Yes - I've already checked"
+        - "No - I haven't checked"
+    validations:
+      required: yes
+  - type: dropdown
+    id: plugin-type
+    attributes:
+      label: Plugin type
+      description: What kind of AI plugin are you proposing?
+      multiple: false
+      options:
+        - "Skill"
+        - "MCP Server"
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: Describe the plugin
+      description: What does this plugin do and when should an AI agent use it? Include example prompts if possible.
+      placeholder: Describe the plugin and its use cases
+      value: "This plugin would allow an AI agent to [...]"
+    validations:
+      required: true

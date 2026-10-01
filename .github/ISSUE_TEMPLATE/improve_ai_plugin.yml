@@ -1,0 +1,51 @@
+name: Improve an Existing AI Plugin
+description: Suggest improvements to an existing AI plugin
+title: "[Improve AI Plugin]: "
+labels: "enhancement"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > _Thanks for suggesting an improvement to an existing AI plugin. We appreciate your time and effort. Please answer a few questions._
+  - type: dropdown
+    id: checked-for-duplicates
+    attributes:
+      label: Checked for duplicates
+      description: Have you checked for duplicate issue tickets?
+      multiple: false
+      options:
+        - "Yes - I've already checked"
+        - "No - I haven't checked"
+    validations:
+      required: yes
+  - type: dropdown
+    id: plugin-category
+    attributes:
+      label: Plugin category
+      description: Which category does the plugin you want to improve belong to?
+      multiple: false
+      options:
+        - "Algorithms"
+        - "Infrastructure"
+        - "Documentation"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: Plugin URL
+      description: Paste the URL of the AI plugin you want to improve (marketplace entry or documentation page).
+      placeholder: URL
+      value: "ex. the marketplace entry or documentation page URL"
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: Describe the improvement
+      description: What changes or additions would make this plugin more useful?
+      placeholder: Describe the improvement
+      value: "This plugin could be improved by [...]"
+    validations:
+      required: true

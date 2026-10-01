@@ -1,0 +1,57 @@
+{
+  "name": "maap-ai-marketplace",
+  "owner": {
+    "name": "NASA MAAP Project",
+    "email": "maap-support@jpl.nasa.gov"
+  },
+  "metadata": {
+    "description": "AI plugins — skills and MCP servers — for the Multi-Mission Algorithm and Analysis Platform (MAAP).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "algorithm-to-ogc",
+      "description": "Convert a science algorithm into an OGC Application Package (OGC API - Processes) compliant description. Use when packaging an algorithm for interoperable deployment across MAAP and other OGC-compliant platforms.",
+      "source": "./static/marketplace",
+      "strict": false,
+      "skills": [
+        "./skills/algorithm-to-ogc"
+      ],
+      "keywords": [
+        "OGC",
+        "application-package",
+        "algorithm",
+        "processes",
+        "interoperability"
+      ],
+      "author": {
+        "name": "Marjorie Lucas"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "maap-platform",
+      "description": "Query MAAP jobs, batches, costs, and workspace files from your AI agent. A Streamable-HTTP MCP server hosted by the MAAP Console, exposing 7 tools and secured with Keycloak OAuth.",
+      "source": {
+        "source": "github",
+        "repo": "https://github.com/MAAP-Project/maap-console-ui"
+      },
+      "external_only": true,
+      "keywords": [
+        "mcp-server",
+        "jobs",
+        "batches",
+        "workspace",
+        "HySDS",
+        "external",
+        "OAuth"
+      ],
+      "author": {
+        "name": "NASA MAAP Project"
+      },
+      "homepage": "https://github.com/MAAP-Project/maap-console-ui/tree/main/server/src/mcp",
+      "repository": "https://github.com/MAAP-Project/maap-console-ui",
+      "license": "Apache-2.0"
+    }
+  ]
+}

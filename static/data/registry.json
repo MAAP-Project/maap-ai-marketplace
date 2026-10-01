@@ -15,7 +15,7 @@
     {
       "name": "algorithm-to-ogc",
       "displayName": "Algorithm to OGC Converter",
-      "description": "Convert a science algorithm into an OGC Application Package (OGC API - Processes) compliant description. Use when packaging an algorithm for interoperable deployment across MAAP and other OGC-compliant platforms.",
+      "description": "Convert a science algorithm into an OGC Application Package compliant description. Use when packaging an algorithm for interoperable deployment across MAAP and other OGC-compliant platforms.",
       "category": "algorithms",
       "tags": [
         "OGC",

@@ -1,14 +1,14 @@
 {
   "skills": {
-    "algorithm-to-ogc": {
-      "name": "algorithm-to-ogc",
+    "maap-algorithm-to-ogc": {
+      "name": "maap-algorithm-to-ogc",
       "type": "directory",
       "children": [
         {
           "name": "SKILL.md",
           "type": "file",
           "path": "SKILL.md",
-          "size": 20138
+          "size": 20148
         },
         {
           "name": "assets",

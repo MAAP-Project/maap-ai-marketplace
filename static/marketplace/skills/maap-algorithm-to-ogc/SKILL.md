@@ -1,5 +1,5 @@
 ---
-name: algorithm-to-ogc
+name: maap-algorithm-to-ogc
 description: Turn an algorithm (Python script, Jupyter notebook, compiled binary, or existing container) into an OGC Application Package for MAAP. Interviews the user, writes algorithm_config.yml plus a Containerfile and entrypoint, generates the CWL workflow with MAAP-Project/ogc-app-pack-generator, validates it with cwltool and ap-validator, and can build the image and register the process. Use when someone wants to build or fix an OGC app pack, OGC process, or CWL workflow for MAAP, wants to deploy or register an algorithm to MAAP, or mentions algorithm_config.yml, ogc-app-pack-generator, ap-validator, cwl_workflows/, or an OGC process endpoint.
 ---
 
@@ -14,7 +14,7 @@ pinned at tag **1.1.0** — the same version the GitHub Action runs. Your job is
 `algorithm_config.yml` and a container that honors the runtime contract below.
 
 Paths below written as `<skill-dir>` mean the directory containing this `SKILL.md` (the
-`algorithm-to-ogc` skill directory, wherever it was installed). `scripts/`, `assets/`, and
+`maap-algorithm-to-ogc` skill directory, wherever it was installed). `scripts/`, `assets/`, and
 `references/` are relative to it.
 
 ## Talking to the user — plain language

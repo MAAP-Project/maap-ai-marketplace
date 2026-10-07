@@ -13,7 +13,7 @@
   },
   "skills": [
     {
-      "name": "algorithm-to-ogc",
+      "name": "maap-algorithm-to-ogc",
       "displayName": "Algorithm to OGC Converter",
       "description": "Convert a science algorithm into an OGC Application Package compliant description. Use when packaging an algorithm for interoperable deployment across MAAP and other OGC-compliant platforms.",
       "category": "algorithms",
@@ -31,8 +31,8 @@
       },
       "license": "Apache-2.0",
       "type": "skill",
-      "skill_file_url": "/maap-ai-marketplace/marketplace/skills/algorithm-to-ogc/SKILL.md",
-      "zip_file_path": "assets/zip/algorithm-to-ogc.zip"
+      "skill_file_url": "/maap-ai-marketplace/marketplace/skills/maap-algorithm-to-ogc/SKILL.md",
+      "zip_file_path": "assets/zip/maap-algorithm-to-ogc.zip"
     }
   ],
   "agents": [],

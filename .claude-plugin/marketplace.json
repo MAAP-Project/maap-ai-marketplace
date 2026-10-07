@@ -10,12 +10,12 @@
   },
   "plugins": [
     {
-      "name": "algorithm-to-ogc",
+      "name": "maap-algorithm-to-ogc",
       "description": "Convert a science algorithm into an OGC Application Package compliant description. Use when packaging an algorithm for interoperable deployment across MAAP and other OGC-compliant platforms.",
       "source": "./static/marketplace",
       "strict": false,
       "skills": [
-        "./skills/algorithm-to-ogc"
+        "./skills/maap-algorithm-to-ogc"
       ],
       "keywords": [
         "OGC",
